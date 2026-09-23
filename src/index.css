@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+@layer components {
+  .hover-effect {
+    @apply transition-all duration-200 hover:scale-105 hover:translate-y-1;
+  }
+
+  .btn-hover-effect{
+    @apply transition-all duration-200 hover:scale-105 hover:translate-y-0.5 cursor-pointer;
+  }
+}
+
+@utility font-inter {
+  font-family: "Inter", sans-serif;
+}
